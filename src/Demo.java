@@ -12,6 +12,7 @@ import java.util.Map;
 
 public class Demo {
 
+
     public static final String CODE_UTF8 = "utf-8";
     public static final String CODE_GBK = "gbk";
     public static final String DEFAULT_PATH = "E://wifi";//默认wifi配置文件生成路径
@@ -54,6 +55,7 @@ public class Demo {
 
 
     public static void main(String[] args) {
+        System.out.println("我是新分支dev_ycb");
         //列出所有的可用wifi，key是wifi名称，value是wifi的强度(用这个不如自己打开wifi看附近有哪些可用来得快)
 //		Map<String,String> map = getWifi();
 //		for(String key:map.keySet()){
